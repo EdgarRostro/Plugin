@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class StartObjectsSpawner : MonoBehaviour
 {
+    [Header("Instantiate objects in start")]
     public List<GameObject> objectsPrefabs = new List<GameObject>();
 
     public int objectsToSpawn;

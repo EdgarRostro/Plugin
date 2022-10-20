@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class TimedStartSpawner : MonoBehaviour
 {
-    // Start is called before the first frame update
-     public List<GameObject> objectsPrefabs = new List<GameObject>();
+    [Header("Timed and start object spawner")]
+    public List<GameObject> objectsPrefabs = new List<GameObject>();
 
     public int objectsToSpawn;
     public float rateInMiddle; //0.0 - 1.0 Percentage of which the amount will be in the middle
